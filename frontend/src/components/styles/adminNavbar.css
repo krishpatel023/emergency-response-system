@@ -1,0 +1,34 @@
+.admin-navbar{
+    width:100%;
+    height:100%;
+}
+.admin-navbar-logo{
+    width:100%;
+    height:20%;
+    text-align: center;
+}
+.admin-navbar-wrapper{
+    width:100%;
+    height:80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+}
+.navbar-buttons{
+    border:2px solid black;
+    border-radius: 1rem;
+    width:70%;
+    height:10%;
+    padding: 0.3rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aliceblue;
+}
+.navbar-buttons:hover{
+    background-color: rgb(83, 83, 255);
+}

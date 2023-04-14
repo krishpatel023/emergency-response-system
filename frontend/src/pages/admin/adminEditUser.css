@@ -1,0 +1,78 @@
+.admin-edit-users-panel-wrapper{
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+    display: flex;
+}
+.admin-edit-users-panel-navbar{
+    width:20vw;
+    height:100vh;
+    border:2px solid black;
+}
+.admin-edit-users-panel-detail{
+    width:80vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.admin-edit-users-panel-detail-wrapper{
+    width:40%;
+    height:70%;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+.edit-input-details-1,
+.edit-input-details-2,
+.edit-input-details-3,
+.edit-input-details-4{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit-input-details-1{
+    height:50%;
+    flex-direction: column;
+    gap: 10%;
+}
+.edit-input-details-1 input{
+    width:40%;
+    height:10%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.edit-input-details-2{
+    height:10%;
+}
+.edit-input-details-4{
+   height: 15%;
+   gap: 10%;
+}
+.edit-input-details-3{
+    min-height: 10%;
+    flex-direction: column;
+}
+.edit-input-details-4 button{
+    width: 30%;
+    height: 50%;
+    border-radius: 0.5rem;  
+}
+.edit-input-edit-btn{
+    background-color: rgb(69, 97, 209);
+}
+.edit-input-edit-btn:hover{
+    background-color: rgb(142, 159, 208);
+}
+.edit-input-delete-btn{
+    background-color: rgb(237, 66, 66);
+}
+.edit-input-delete-btn:hover{
+    background-color: rgb(251, 124, 124);
+}
